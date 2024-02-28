@@ -1,0 +1,72 @@
+Class ExpenseTracker:
+    Method __init__():
+        Initialize expense_categories
+        Generate initial set of realistic expenses
+
+    Method generate_realistic_name():
+        Create a realistic expense name using adjectives and nouns
+
+    Method generate_random_amount():
+        Generate a random amount for an expense
+
+    Method generate_random_date():
+        Generate a random date within the year 2022 for an expense
+
+    Method generate_random_payment_method():
+        Generate a random payment method for an expense
+
+    Method generate_expense_records(categories):
+        Generate a list of realistic expense records with random details
+
+    Method display_expense_info(expense):
+        Display details of a single expense
+
+    Method display_all_expenses(expenses=None):
+        Display details of all expenses (default to instance's expenses)
+
+    Method display_all_expenses_table(expenses=None):
+        Display expenses in a tabular format
+
+    Method display_all_categories():
+        Display all expense categories
+
+    Method filter_expenses_by_category(category):
+        Filter expenses based on a given category
+
+    Method calculate_total_expenses():
+        Calculate the total amount of all expenses
+
+    Method calculate_expenses_by_category():
+        Calculate total expenses for each category
+
+    Method add_user_expense():
+        Allow the user to input a new expense
+
+    Method delete_expense(expense):
+        Delete a specified expense from the list
+
+    Method update_category_in_expenses(old_category, new_category):
+        Update category in all expenses when a category is edited
+
+    Method manage_categories():
+        Allow the user to manage expense categories
+        Display options to add, edit, or delete categories
+
+    Method delete_expense_menu():
+        Allow the user to select and delete an expense
+        Display a menu showing all expenses and prompt the user for deletion
+
+    Method calculate_expenses_by_category_menu():
+        Calculate and display expenses by category
+        Show the total expenses for each category
+
+    Method main_menu():
+        Display the main menu for user interaction
+        Include options to add expenses, manage categories, display expenses, filter by category,
+        calculate total expenses, calculate expenses by category, delete expenses, and exit
+
+# Instantiate an ExpenseTracker object
+expense_tracker = ExpenseTracker()
+
+# Start the main menu
+expense_tracker.main_menu()
