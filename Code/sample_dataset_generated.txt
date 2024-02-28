@@ -1,0 +1,22 @@
+expenses = [
+    ["Entertainment Shopping", 59.03, "Utilities", "2022-02-23", "Credit Card"],
+    ["Grocery Shopping", 77.76, "Utilities", "2022-09-30", "Cash"],
+    ["Transportation Shopping", 37.55, "Dining", "2022-09-03", "Credit Card"],
+    ["Entertainment Gas", 43.24, "Groceries", "2022-11-29", "Cash"],
+    ["Entertainment Gas", 61.30, "Entertainment", "2022-07-19", "Debit Card"],
+    ["Entertainment Gas", 22.17, "Dining", "2022-06-29", "Cash"],
+    ["Dining Subscription", 47.65, "Transportation", "2022-11-19", "Credit Card"],
+    ["Grocery Gas", 27.77, "Entertainment", "2022-03-06", "Credit Card"],
+    ["Grocery Rent", 11.78, "Transportation", "2022-03-15", "Debit Card"],
+    ["Grocery Rent", 70.54, "Utilities", "2022-10-25", "Credit Card"],
+    ["Dining Gas", 71.18, "Dining", "2022-07-31", "Credit Card"],
+    ["Entertainment Dinner", 16.74, "Transportation", "2022-11-25", "Cash"],
+    ["Utility Gas", 20.67, "Transportation", "2022-10-07", "Credit Card"],
+    ["Transportation Dinner", 80.54, "Transportation", "2022-05-28", "Debit Card"],
+    ["Transportation Subscription", 81.39, "Dining", "2022-10-20", "Debit Card"],
+    ["Dining Gas", 51.71, "Transportation", "2022-03-08", "Cash"],
+    ["Dining Rent", 45.00, "Entertainment", "2022-08-21", "Cash"],
+    ["Dining Gas", 25.22, "Transportation", "2022-06-25", "Credit Card"],
+    ["Grocery Subscription", 26.18, "Transportation", "2022-04-25", "Credit Card"],
+    ["Transportation Gas", 13.05, "Entertainment", "2022-09-28", "Credit Card"]
+]
